@@ -2,7 +2,6 @@ package hashtable.interview_topics;
 
 import java.util.HashMap;
 
-import hashtable.HashTable;
 
 public class ItemInCommon {
     public boolean inefficientway(int arr1[], int arr2[]){

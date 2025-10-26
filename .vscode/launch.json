@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "trees.Main",
+            "projectName": "Java_DSA_Udemy_9bfc9534"
+        },
+        {
+            "type": "java",
             "name": "Factorial_rec",
             "request": "launch",
             "mainClass": "recursion.Factorial_rec",

@@ -1,3 +1,5 @@
+package trees;
+
 public class Main {
     public static void main(String[] args) {
         BST mybst = new BST();
@@ -17,6 +19,9 @@ public class Main {
 
         System.out.println(mybst.contains(78));
         System.out.println(mybst.contains(27));
+
+        System.out.println(mybst.BFS());
+        System.out.println(mybst.DFS());
     }
 }
 /*
