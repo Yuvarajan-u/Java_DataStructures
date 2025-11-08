@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "algorithms.sorting_algos.MergeSort",
+            "projectName": "Java_DSA_Udemy_9bfc9534"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "algorithms.sorting_algos.InsertionSort",
+            "projectName": "Java_DSA_Udemy_9bfc9534"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "algorithms.sorting_algos.BubbleSort",
+            "projectName": "Java_DSA_Udemy_9bfc9534"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "trees.Main",

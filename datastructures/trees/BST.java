@@ -102,7 +102,7 @@ public class BST {
         return res;
     }
 
-    public ArrayList<Integer> DFS() {
+    public ArrayList<Integer> DFSPreOrder() {
         ArrayList<Integer> result = new ArrayList<>();
         class Traverse {
             Traverse(Node n) {
@@ -113,6 +113,41 @@ public class BST {
                 if (n.right != null) {
                     new Traverse(n.right);
                 }
+            }
+        }
+        new Traverse(root);
+        return result;
+    }
+    public ArrayList<Integer> DFSInOrder() {
+        ArrayList<Integer> result = new ArrayList<>();
+        class Traverse {
+            Traverse(Node n) {
+                
+                if (n.left != null) {
+                    new Traverse(n.left);
+                }
+                result.add(n.value);
+
+                if (n.right != null) {
+                    new Traverse(n.right);
+                }
+            }
+        }
+        new Traverse(root);
+        return result;
+    }
+    public ArrayList<Integer> DFSPostOrder() {
+        ArrayList<Integer> result = new ArrayList<>();
+        class Traverse {
+            Traverse(Node n) {
+                
+                if (n.left != null) {
+                    new Traverse(n.left);
+                }
+                if (n.right != null) {
+                    new Traverse(n.right);
+                }
+                result.add(n.value);
             }
         }
         new Traverse(root);

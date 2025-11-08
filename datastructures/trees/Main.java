@@ -21,7 +21,9 @@ public class Main {
         System.out.println(mybst.contains(27));
 
         System.out.println(mybst.BFS());
-        System.out.println(mybst.DFS());
+        System.out.println(mybst.DFSPreOrder());
+        System.out.println(mybst.DFSInOrder());
+        System.out.println(mybst.DFSPostOrder());
     }
 }
 /*
